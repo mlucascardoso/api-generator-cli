@@ -1,0 +1,35 @@
+{
+  "name": "api-generator-cli",
+  "version": "0.0.6",
+  "description": "API file generator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lu002047/api-generator-cli.git"
+  },
+  "keywords": [
+    "File generator",
+    "API",
+    "REST",
+    "Graphql",
+    "Javascript",
+    "Typescript",
+    "NodeJs"
+  ],
+  "author": "Lucas Medeiros Cardoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lu002047/api-generator-cli/issues"
+  },
+  "homepage": "https://github.com/lu002047/api-generator-cli#readme",
+  "bin": {
+    "mycli": "index.js"
+  },
+  "dependencies": {
+    "prompts": "^2.2.1",
+    "shelljs": "^0.8.3",
+    "yargs": "^14.2.0"
+  }
+}

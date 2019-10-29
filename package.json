@@ -1,6 +1,6 @@
 {
   "name": "api-generator-cli",
-  "version": "0.0.6",
+  "version": "0.0.1",
   "description": "API file generator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,10 +25,11 @@
   },
   "homepage": "https://github.com/lu002047/api-generator-cli#readme",
   "bin": {
-    "mycli": "index.js"
+    "api-cli": "bin/cmd.js"
   },
   "dependencies": {
     "prompts": "^2.2.1",
+    "require-dir": "^1.2.0",
     "shelljs": "^0.8.3",
     "yargs": "^14.2.0"
   }

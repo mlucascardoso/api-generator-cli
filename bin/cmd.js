@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-'use strict'
+'use strict';
 
 const yargs = require('yargs');
 const { join, resolve } = require('path');
@@ -11,12 +11,17 @@ const cwd = resolve(yargs.argv.cwd || process.cwd());
 process.chdir(cwd);
 
 // Init CLI commands and options
-commands().forEach(cmd => yargs.command(cmd.command, cmd.desc, cmd.builder, cmd.handler));
+commands()
+  .forEach(cmd =>
+    yargs.command(cmd.command, cmd.desc, cmd.builder, cmd.handler),
+  );
 
 yargs
   .help()
   .demand(1)
-  .epilog((homepage ? `| Documentation: ${homepage}\n` : '') + (version ? `| Version: ${version}` : ''))
+  .epilog(
+      (homepage ? `| Documentation: ${homepage}\n` : '') +
+      (version ? `| Version: ${version}` : ''))
   .wrap(yargs.terminalWidth())
   .strict()
   .argv;

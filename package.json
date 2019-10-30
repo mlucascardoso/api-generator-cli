@@ -25,12 +25,16 @@
   },
   "homepage": "https://github.com/lu002047/api-generator-cli#readme",
   "bin": {
-    "api-cli": "bin/cmd.js"
+    "mycli": "bin/cmd.js"
   },
   "dependencies": {
     "prompts": "^2.2.1",
     "require-dir": "^1.2.0",
     "shelljs": "^0.8.3",
     "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0"
   }
 }

@@ -28,6 +28,7 @@
     "mycli": "bin/cmd.js"
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "prompts": "^2.2.1",
     "require-dir": "^1.2.0",
     "shelljs": "^0.8.3",

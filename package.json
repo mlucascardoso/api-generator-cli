@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/lu002047/api-generator-cli#readme",
   "bin": {
-    "mycli": "bin/cmd.js"
+    "api-generator-cli": "bin/cmd.js"
   },
   "dependencies": {
     "moment": "^2.24.0",

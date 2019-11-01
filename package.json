@@ -1,6 +1,6 @@
 {
   "name": "api-generator-cli",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "API file generator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,6 @@
 {
   "name": "api-generator-cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "API file generator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/mlucascardoso/api-generator-cli#readme",
   "bin": {
-    "api-generator-cli": "bin/cmd.js"
+    "mycli": "bin/cmd.js"
   },
   "dependencies": {
     "moment": "^2.24.0",
